@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+flake8 = "*"
+coverage = "*"
+requests-html = "*"
+argparse = "*"
+selenium = "*"
+webdriver-manager = "*"
+
+[requires]
+python_version = "3.9.1"
